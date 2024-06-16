@@ -56,6 +56,7 @@
 // }
 //
 // Bird.prototype = Object.create(Animal.prototype);
+// Bird.prototype.constructor = Bird;
 //
 // Bird.prototype.fly = function() {
 //     console.log("Flying high!");
